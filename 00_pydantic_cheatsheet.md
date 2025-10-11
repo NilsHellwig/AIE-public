@@ -202,7 +202,7 @@ class User(BaseModel):
 
 ## 21. Root Validator
 
-**Achtung:** `@model_validator` kann nicht für Structured Outputs verwendet werden. Die validation wird nur auf dem finalen LLM-Output angewendet.
+**Achtung:** `@model_validator` kann nicht für Structured Outputs verwendet werden. Die Validation wird nur auf dem finalen LLM-Output angewendet. Bei Structured Outputs muss die Validation für jedes predictete Token durchgeführt werden.
 
 ```python
 from pydantic import model_validator
