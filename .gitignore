@@ -1,1 +1,5 @@
 .DS_Store
+Notebooks/.python-version
+Notebooks/main.py
+Notebooks/pyproject.toml
+Notebooks/uv.lock
